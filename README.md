@@ -1,4 +1,5 @@
-<pre>
+```
+<?php
 // How to use
 // Sample
 $config['host'] = 'localhost';
@@ -17,4 +18,5 @@ $Database->query("INSERT INTO `test` (id,name) VALUES (1,'TEST')");
 $QRY = $Database->query("select * from `test`");
 $RESULT = $Database->fetch_assoc($QRY);
 */
-</pre>
+?>
+```
