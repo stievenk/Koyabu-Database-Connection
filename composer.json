@@ -1,0 +1,19 @@
+{
+    "name": "koyabu/database-connection",
+    "description": "MySQLi Database Connection",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Koyabu\\DatabaseConnection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stievenk",
+            "email": "stieven.kalengkian@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
