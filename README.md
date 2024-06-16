@@ -1,3 +1,10 @@
+## Cara Install
+Menggunakan [Composer]
+```
+composer require koyabu/database-connection
+```
+
+Contoh penggunaan: test.php
 ```
 <?php
 // How to use
@@ -20,3 +27,4 @@ $RESULT = $Database->fetch_assoc($QRY);
 */
 ?>
 ```
+[Composer]: https://getcomposer.org/download/
